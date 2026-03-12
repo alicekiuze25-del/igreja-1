@@ -1,4 +1,55 @@
-{
+
+
+body {
+    
+    background-color: whitesmoke;
+    
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;     
+    margin: 0;
+    display: grid;
+    place-items: center; /* Centraliza nas duas direções */
+    min-height: 100vh;           
+
+}
+
+a{
+    
+    text-decoration: none;
+    color: snow;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    background-color: #005f60;
+    border:40% solid black;
+    border-radius: 10%;
+    height: 350px;
+    padding: 35px;
+   
+}
+
+
+input, textarea, button {
+    border: 2px solid #333; 
+    border-radius: 0;        
+    padding: 10px;          
+}
+.membresia.container {
+  display: flex;
+  flex-direction: column; /* Empilha verticalmente */
+  gap: 15px; /* Espaço entre os elementos */
+  max-width: 400px; /* Largura máxima */
+  margin: 0 auto; /* Centraliza o form na página */
+  padding: 20px;
+}
+form {
+    display: flex;
+  flex-direction: column; 
+  gap:5px;
+  margin-top: 20%;
+}
 
     
-}
