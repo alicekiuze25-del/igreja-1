@@ -14,12 +14,17 @@
 
         <hl>INSCRIÇÃO PARA MEMBRESIA</hl>
         <form>
-            <input type="text" nome="name" placeholder="nome completo"required>
+            <input type="text" nome="name" placeholder="Nome completo"required>
 
-             <input type="date" nome="date" placeholder="data de nascimento"required>
-            <input type="text" nome="username" placeholder="email"required>
-            <input type="passport" nome ="passport"placeholder="senha"requerid>
-            <input type="submit" value ="inscrever">
+             <input type="date" nome="date" placeholder="00/00/00" pattern=" `^((0[1-9]" required>
+             
+             <input type="text" nome="endereco" placeholder="Endereço"required>
+             <input type="text"nome="cpf" placeholder="CPF" maxlength="11" required>
+             <input type="tel" nome="telefone"placeholder="(99) 99999-9999"pattern="\(\d{2}\)\s\d{4,5}-\d{4}"maxlength="11"required>
+            <input type="email" nome="username" placeholder="Email"required>
+            <input type="passport" nome ="passport"placeholder="Senha"requerid>
+            
+            <input type="submit" value ="INSCREVA-SE">
 
 
         </form>

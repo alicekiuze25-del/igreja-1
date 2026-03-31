@@ -26,8 +26,8 @@ div {
     background-color: #005f60;
     border:40% solid black;
     border-radius: 10%;
-    height: 350px;
-    padding: 35px;
+    height: 400px;
+    padding: 40px;
    
 }
 
@@ -51,5 +51,37 @@ form {
   gap:5px;
   margin-top: 20%;
 }
+
+input[type=text], input[type=nome], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
+input[type=email], input[type=email], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
+input[type=tel], input[type=tel], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
+input[type=date], input[type=date], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
+input[type=passport], input[type=passport], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
+input[type=submit], input[type=submit], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
+
 
     

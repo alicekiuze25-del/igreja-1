@@ -53,4 +53,20 @@ form {
   flex-direction: column; 
   gap:5px;
   margin-top: 20%;
+
+}
+input[type=text], input[type=email], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
+input[type=passport], input[type=passport], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
+input[type=submit], input[type=submit], textarea {
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    padding: 10px; 
 }
